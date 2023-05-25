@@ -1,0 +1,902 @@
+/* white {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'mainfont' format('truetype');
+    src: url("font/mainfont.ttf");
+}
+
+@font-face {
+    font-family: 'FreeUniversal-Bold' format('truetype');
+    src: url("font/FreeUniversal-Bold.ttf");
+}
+
+body {
+    background: white;
+    font-family: 'mainfont', sans-serif;
+}
+
+body section a {
+    background: rgb(27, 164, 213) !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+button {
+    box-shadow: none !important;
+}
+
+
+h1,
+h2,
+h6 {
+    color: rgb(90, 168, 202);
+    font-family: 'FreeUniversal-Bold', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+}
+
+nav {
+    background: black;
+}
+
+nav .navbar-brand img {
+    width: 35px;
+    margin-left: 20px;
+}
+
+nav .navbar-brand {
+    color: rgb(121, 184, 210);
+}
+
+nav button img {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+}
+
+nav .btn-close {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg) !important;
+}
+
+nav .btn-close:focus {
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(275deg);
+}
+
+nav .offcanvas {
+    background: #0e0e0e;
+    transition: 0.6s;
+}
+
+nav .offcanvas h5 {
+    margin-left: 20px;
+    margin-top: 50px;
+    color: rgb(121, 184, 210);
+}
+
+nav .offcanvas ul li {
+    margin-left: 20px;
+}
+
+nav .offcanvas ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav .offcanvas ul li a:focus {
+    color: white !important;
+}
+
+nav .offcanvas ul li a:hover {
+    color: rgb(121, 184, 210) !important;
+}
+
+nav .offcanvas .dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* section-1 */
+.home-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.home-section .home-container .home-container-box h1 {
+    padding-top: 85px;
+}
+
+.home-section .home-container .home-container-box .text {
+    padding: 10px 200px 0 200px;
+}
+
+.home-section .home-container .home-container-box-img img {
+    width: 350px;
+}
+
+/* section 2 */
+
+.invest-secton {
+    width: 100%;
+    height: fit-content;
+}
+
+.invest-secton .invest-container .invest-container-action {
+    padding-top: 70px;
+}
+
+.invest-secton .invest-container .invest-container-box {
+    margin: 50px 0 0 60px;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    -webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+    box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+}
+
+.invest-secton .invest-container .invest-container-box h3 {
+    font-weight: bold;
+}
+
+/* cfyyd section */
+
+.cfyd-section {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.cfyd-section .cfyd-text {
+    margin-top: 50px;
+    height: fit-content !important;
+    -webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+    box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+    border: none;
+    border-radius: 15px;
+}
+
+.cfyd-section .cfyd-text h1 img {
+    width: 100px;
+}
+
+.cfyd-section .cfyd-text p {
+    padding: 0 200px 0 200px;
+}
+
+
+/* features section */
+.features-section {
+    width: 100%;
+    height: fit-content;
+    background-image: url('image/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.features-section .blockchain-container .blockchain-img-box p img {
+    width: 350px;
+    margin: 50px 0 0 100px;
+    border: none;
+    border-radius: 15px;
+}
+
+.features-section .blockchain-container .blockchain-text-box {
+    margin-top: 50px;
+}
+
+.features-section .tokenomics-container .tokenomics-img-box p img {
+    width: 350px;
+    margin: 50px 30px 0 100px !important;
+    border: none;
+    border-radius: 15px;
+}
+
+.features-section .tokenomics-container .tokenomics-text-box p {
+    color: white;
+}
+
+.features-section .tokenomics-container .tokenomics-text-box h2 {
+    color: rgb(90, 168, 202);
+}
+
+.features-section .tokenomics-container .tokenomics-text-box {
+    margin-top: 50px;
+}
+
+/* partner-section */
+
+.partner-section {
+    width: 100%;
+    height: fit-content;
+}
+
+.partner-section .partner-container .partner-container-box {
+    height: fit-content !important;
+}
+
+.partner-section .partner-container .partner-container-box p img {
+    border: none;
+    border-radius: 15px;
+}
+
+
+/* footer-section  */
+.footer-section {
+    width: 100%;
+    height: fit-content;
+}
+
+.footer-section .container .spad .footer-widget h3 img {
+    width: 50px;
+}
+
+.footer-section .container .spad .footer-widget h3 {
+    color: rgb(90, 168, 202);
+}
+
+.footer-section .container .spad .footer-widget li {
+    text-decoration: none !important;
+}
+
+
+
+/* other pages */
+
+/* outlook-section */
+
+.outlook-section {
+    width: 100%;
+    height: fit-content;
+}
+
+.outlook-section .outlook-container .outlook-container-img {
+    height: 50vh;
+
+}
+
+.outlook-section .outlook-container .outlook-container-text h1 {
+    margin-top: 50px;
+}
+
+.outlook-section .outlook-container .outlook-container-text p {
+    margin-top: 30px;
+    padding: 0 200px 0 200px;
+}
+
+
+
+/* responsivity */
+
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 280px;
+        font-size: 50px;
+    }
+
+    .home-section .home-container .home-container-box .text {
+        padding: 20px 200px 0 200px;
+    }
+
+    .home-section .home-container .home-container-box-img img {
+        width: 400px;
+        margin-top: 50px;
+    }
+
+
+    /* features section */
+
+    .features-section .blockchain-container .blockchain-img-box p img {
+        width: 400px;
+        margin: 30px 0 0 0;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box {
+        margin-top: 30px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box h2 {
+        font-size: 30px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-img-box p img {
+        width: 400px;
+        margin: 50px 0 0 0 !important;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box p {
+        color: white;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box h2 {
+        color: rgb(90, 168, 202);
+        font-size: 30px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box {
+        margin-top: 50px;
+    }
+
+
+
+    /* other pages */
+
+    /* outlook-section */
+
+    .outlook-section .outlook-container .outlook-container-img {
+        height: 35vh;
+
+    }
+
+    .outlook-section .outlook-container .outlook-container-text p {
+        margin-top: 30px;
+        padding: 0 50px 0 50px;
+    }
+}
+
+/* medium screen landscape */
+@media only screen and (min-height: 992px) and (max-height: 1199px) {
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 200px;
+        font-size: 50px;
+    }
+}
+
+
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) and (max-height: 1020px) {
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 180px;
+    }
+
+    .home-section .home-container .home-container-box .text {
+        padding: 10px 80px 0 80px;
+    }
+
+    .home-section .home-container .home-container-box-img img {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+
+    /* section 2 */
+
+    .invest-secton .invest-container .invest-container-action {
+        padding-top: 70px;
+    }
+
+    .invest-secton .invest-container .invest-container-box {
+        margin: 20px 0 0 10px;
+        width: 220px;
+    }
+
+    .invest-secton .invest-container .invest-container-box h3 {
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(121, 184, 210);
+    }
+
+    .invest-secton .invest-container .invest-container-box p {
+        font-size: 14px;
+    }
+
+    /* cfyyd section */
+
+    .cfyd-section .cfyd-text {
+        margin-top: 20px;
+    }
+
+    .cfyd-section .cfyd-text h1 img {
+        width: 80px;
+        /* margin-top: 50px; */
+    }
+
+    .cfyd-section .cfyd-text p {
+        padding: 0;
+    }
+
+
+    /* features section */
+
+    .features-section .blockchain-container .blockchain-img-box p img {
+        width: 300px;
+        margin: 30px 0 0 0;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box {
+        margin-top: 30px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box h2 {
+        font-size: 25px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-img-box p img {
+        width: 300px;
+        margin: 50px 0 0 0 !important;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box p {
+        color: white;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box h2 {
+        color: rgb(90, 168, 202);
+        font-size: 23px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box {
+        margin-top: 50px;
+    }
+
+
+    /* other pages */
+
+    /* outlook-section */
+
+    .outlook-section .outlook-container .outlook-container-img {
+        height: 30vh;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text h1 {
+        margin-top: 50px;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text p {
+        margin-top: 30px;
+        padding: 0 50px 0 50px;
+    }
+}
+
+/* landscape view */
+@media only screen and (min-height: 768px) and (max-height: 991px) {
+
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 90px;
+    }
+
+    .home-section .home-container .home-container-box .text {
+        padding: 10px 80px 0 80px;
+    }
+
+    .home-section .home-container .home-container-box-img img {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+
+    /* section 2 */
+
+    .invest-secton .invest-container .invest-container-action {
+        padding-top: 70px;
+    }
+
+    .invest-secton .invest-container .invest-container-box {
+        margin: 30px 0 0 10px;
+        width: 300px;
+    }
+
+    .invest-secton .invest-container .invest-container-box h3 {
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(121, 184, 210);
+    }
+
+    .invest-secton .invest-container .invest-container-box p {
+        font-size: 16px;
+    }
+
+    /* cfyyd section */
+
+    .cfyd-section .cfyd-text {
+        margin-top: 20px;
+    }
+
+    .cfyd-section .cfyd-text h1 img {
+        width: 100px;
+        /* margin-top: 50px; */
+    }
+
+    .cfyd-section .cfyd-text p {
+        padding: 0;
+    }
+
+    /* features section */
+
+    .features-section .blockchain-container .blockchain-img-box p img {
+        width: 300px;
+        margin: 30px 0 0 0;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box {
+        margin-top: 30px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box h2 {
+        font-size: 25px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-img-box p img {
+        width: 300px;
+        margin: 50px 0 0 0 !important;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box p {
+        color: white;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box h2 {
+        color: rgb(90, 168, 202);
+        font-size: 23px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box {
+        margin-top: 50px;
+    }
+
+
+    /* other pages */
+
+    /* outlook-section */
+
+    .outlook-section .outlook-container .outlook-container-text h1 {
+        margin-top: 50px;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text p {
+        margin-top: 30px;
+        padding: 0 50px 0 50px;
+    }
+}
+
+
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+
+    /* navbar */
+    nav .navbar-brand {
+        font-size: 14px;
+    }
+
+    /* home section */
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 85px;
+    }
+
+    .home-section .home-container .home-container-box .text {
+        padding: 0;
+    }
+
+    .home-section .home-container .home-container-box-img img {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+
+    /* section 2 */
+    .invest-secton .invest-container .invest-container-action {
+        padding-top: 50px;
+    }
+
+    .invest-secton .invest-container .invest-container-box {
+        margin: 30px 0 10px 30px;
+    }
+
+    /* cfyyd section */
+
+    .cfyd-section .cfyd-text {
+        margin: 0;
+    }
+
+    .cfyd-section .cfyd-text h1 img {
+        width: 80px;
+    }
+
+    .cfyd-section .cfyd-text p {
+        padding: 0;
+    }
+
+
+    /* features section */
+
+    .features-section .blockchain-container .blockchain-img-box p img {
+        width: 300px;
+        margin: 50px 0 0 0;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box {
+        margin-top: 20px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-img-box p img {
+        width: 300px;
+        margin: 20px 0 0 0 !important;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box p {
+        color: white;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box h2 {
+        color: rgb(90, 168, 202);
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box {
+        margin-top: 50px;
+    }
+
+    /* other pages */
+
+    /* outlook-section */
+    .outlook-section .outlook-container .outlook-container-img {
+        height: 30vh;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text h1 {
+        margin-top: 50px;
+        padding: 0 10px 0 10px;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text p {
+        margin-top: 30px;
+        padding: 0 30px 0 30px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+
+    nav .navbar-brand {
+        font-size: 14px;
+    }
+
+    /* home section */
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 70px;
+    }
+
+    .home-section .home-container .home-container-box .text {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .home-section .home-container .home-container-box-img img {
+        width: 250px;
+        margin: 0;
+    }
+
+    /* section 2 */
+    .invest-secton .invest-container .invest-container-action {
+        padding-top: 50px;
+    }
+
+    .invest-secton .invest-container .invest-container-box {
+        margin: 30px 0 10px 0;
+    }
+
+    .invest-secton .invest-container .invest-container-box h3 {
+        font-size: 20px;
+    }
+
+    .invest-secton .invest-container .invest-container-box p {
+        font-size: 14px;
+    }
+
+    /* cfyyd section */
+
+    .cfyd-section .cfyd-text {
+        margin: 0;
+    }
+
+    .cfyd-section .cfyd-text h1 img {
+        width: 60px;
+    }
+
+    .cfyd-section .cfyd-text p {
+        padding: 0;
+        font-size: 14px;
+    }
+
+
+    /* features section */
+
+    .features-section .blockchain-container .blockchain-img-box p img {
+        width: 300px;
+        margin: 30px 0 0 0;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box h2 {
+        font-size: 20px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box p {
+        font-size: 14px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box {
+        margin-top: 20px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-img-box p img {
+        width: 300px;
+        margin: 20px 0 0 0 !important;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box h2 {
+        color: rgb(90, 168, 202);
+        font-size: 20px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box {
+        margin-top: 30px;
+    }
+
+    /* .footer-section */
+
+    .footer-section .container .spad .footer-widget {
+        font-size: 14px;
+    }
+
+
+    /* other pages */
+
+    /* outlook-section */
+
+    .outlook-section .outlook-container .outlook-container-img {
+        height: 30vh;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text h1 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text p {
+        margin-top: 30px;
+        padding: 0 25px 0 25px;
+        font-size: 14px;
+    }
+}
+
+
+
+/* landscape view */
+@media only screen and (max-height: 479px) {
+
+    /* home section */
+    .home-section .home-container .home-container-box h1 {
+        padding-top: 50px;
+    }
+
+    .home-section .home-container .home-container-box .text {
+        padding: 0 100px 0 100px;
+        font-size: 14px;
+    }
+
+    .home-section .home-container .home-container-box-img img {
+        width: 120px;
+        margin: 0;
+    }
+
+    /* section 2 */
+    .invest-secton .invest-container .invest-container-action {
+        padding-top: 50px;
+    }
+
+    .invest-secton .invest-container .invest-container-box {
+        margin: 30px 0 10px 0;
+        width: auto;
+    }
+
+    .invest-secton .invest-container .invest-container-box h3 {
+        font-size: 20px;
+    }
+
+    .invest-secton .invest-container .invest-container-box p {
+        font-size: 14px;
+    }
+
+    /* cfyyd section */
+
+    .cfyd-section .cfyd-text {
+        margin: 0;
+    }
+
+    .cfyd-section .cfyd-text h1 img {
+        width: 60px;
+    }
+
+    .cfyd-section .cfyd-text p {
+        padding: 0;
+        font-size: 14px;
+
+    }
+
+
+    /* features section */
+
+    .features-section .blockchain-container .blockchain-img-box p img {
+        width: 400px;
+        margin: 30px 0 0 0;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box h2 {
+        font-size: 20px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box p {
+        font-size: 14px;
+    }
+
+    .features-section .blockchain-container .blockchain-text-box {
+        margin-top: 20px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-img-box p img {
+        width: 400px;
+        margin: 20px 0 0 0 !important;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box h2 {
+        color: rgb(90, 168, 202);
+        font-size: 20px;
+    }
+
+    .features-section .tokenomics-container .tokenomics-text-box {
+        margin-top: 30px;
+    }
+
+    /* partner  */
+    .partner-section .partner-container .partner-container-box p img {
+        width: 250px;
+    }
+
+    /* other pages */
+
+    /* outlook-section */
+
+    .outlook-section .outlook-container .outlook-container-img {
+        height: 50vh;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text h1 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .outlook-section .outlook-container .outlook-container-text p {
+        margin-top: 30px;
+        padding: 0 30px 0 30px;
+        font-size: 14px;
+    }
+}
