@@ -248,8 +248,8 @@ nav .offcanvas .dropdown-menu li a {
     color: rgb(90, 168, 202);
 }
 
-.footer-section .container .spad .footer-widget li {
-    text-decoration: none !important;
+.footer-section .container .spad .footer-widget p {
+    margin-left: -30px;
 }
 
 
@@ -595,7 +595,8 @@ nav .offcanvas .dropdown-menu li a {
     }
 
     .invest-secton .invest-container .invest-container-box {
-        margin: 30px 0 10px 30px;
+        margin: 30px 0 10px 0px;
+        width: auto;
     }
 
     /* cfyyd section */
@@ -692,6 +693,7 @@ nav .offcanvas .dropdown-menu li a {
 
     .invest-secton .invest-container .invest-container-box {
         margin: 30px 0 10px 0;
+        width: auto;
     }
 
     .invest-secton .invest-container .invest-container-box h3 {
