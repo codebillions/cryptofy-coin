@@ -50,7 +50,7 @@ nav {
 }
 
 nav .navbar-brand img {
-    width: 35px;
+    width: 60px;
     margin-left: 20px;
 }
 
@@ -123,7 +123,7 @@ nav .offcanvas .dropdown-menu li a {
 }
 
 .home-section .home-container .home-container-box-img img {
-    width: 350px;
+    width: 370px;
 }
 
 /* section 2 */
@@ -241,7 +241,7 @@ nav .offcanvas .dropdown-menu li a {
 }
 
 .footer-section .container .spad .footer-widget h3 img {
-    width: 50px;
+    width: 70px;
 }
 
 .footer-section .container .spad .footer-widget h3 {
@@ -571,7 +571,11 @@ nav .offcanvas .dropdown-menu li a {
 
     /* navbar */
     nav .navbar-brand {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    nav .navbar-brand img {
+        width: 45px;
     }
 
     /* home section */
@@ -584,7 +588,7 @@ nav .offcanvas .dropdown-menu li a {
     }
 
     .home-section .home-container .home-container-box-img img {
-        width: 300px;
+        width: 330px;
         margin-top: 30px;
     }
 
@@ -671,6 +675,10 @@ nav .offcanvas .dropdown-menu li a {
         font-size: 14px;
     }
 
+    nav .navbar-brand img {
+        width: 45px;
+    }
+
     /* home section */
     .home-section .home-container .home-container-box h1 {
         padding-top: 70px;
@@ -682,7 +690,7 @@ nav .offcanvas .dropdown-menu li a {
     }
 
     .home-section .home-container .home-container-box-img img {
-        width: 250px;
+        width: 300px;
         margin: 0;
     }
 
