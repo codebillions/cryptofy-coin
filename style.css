@@ -8,13 +8,13 @@
 }
 
 @font-face {
-    font-family: 'mainfont' format('truetype');
-    src: url("font/mainfont.ttf");
+    font-family: 'mainfont';
+    src: url("font/mainfont.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: 'FreeUniversal-Bold' format('truetype');
-    src: url("font/FreeUniversal-Bold.ttf");
+    font-family: 'FreeUniversal-Bold';
+    src: url("font/FreeUniversal-Bold.ttf") format('truetype');
 }
 
 body {
